@@ -17,9 +17,9 @@ def decode_word(string)
 end
 
 def decode(string)
-  str = ""
+  str = ''
   ar = string.split(/   /)
-  ar.each { |value| str += decode_word(value) + ' ' if ar }
+  ar.each { |value| str += (decode_word(value) + ' ') }
   str.strip
 end
 
