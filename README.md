@@ -53,6 +53,10 @@ In the project directory, you can run:
 
   Runs the app on your bash
 
+- `rubocop`
+
+  Launches the test runner.
+
 ## Author
 
 👤 **Amine**
