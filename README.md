@@ -22,7 +22,7 @@
 # Morse Code
 
 
-**Morse Code** is a single page app that provide live data about the air quality in different cities.
+**Morse Code** is a simple app built with ruby that convert any Morse code to an understandable speech.
 
 ## Built With
 
