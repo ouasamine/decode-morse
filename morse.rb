@@ -16,6 +16,9 @@ def decode_word(string)
 end
 
 def decode(string)
-ar = string.split(/ /)
-ar.each{ |value| decode_word(value) }
+  ar = string.split(/   /)
+  ar.each{ |value| decode_word(value) }
 end
+
+decode("-- -.--   -. .- -- .")
+decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")

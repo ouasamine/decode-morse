@@ -9,9 +9,10 @@
 
 - [📖 About the Project](#air-quality-index )
   - [🛠 Built With](#built-with)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Available Scripts](#available-scripts)
 - [👥 Authors](#author)
 - [🤝 Contributing](#contributing)
 - [🙏 Acknowledgements](#acknowledgments)
@@ -36,17 +37,21 @@
 
 ### Prerequisites
 
-  - A web browser _(Chrome, Mozilla, Edge...)_.
-  - A packet manager _(In the following instruction npm will be used, you can choose any packet manager you like)_
+- Ruby
 
 ### Setup
 
-1. Clone this project on your local machine using the following command on your Git Bash: `git clone https://github.com/ouasamine/air-quality`
+1. Clone this project on your local machine using the following command on your Git Bash: `git clone https://github.com/ouasamine/decode-morse`
 
-2. Browse to project directory `cd air-quality`
-   
-3. Run `npm install` To install project dependencies _(a packet manager is required)_.
+2. Browse to project directory `cd decode-morse`
 
+### Available Scripts
+
+In the project directory, you can run:
+
+- `ruby morse.rb`
+
+  Runs the app on your bash
 
 ## Author
 
