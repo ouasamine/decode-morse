@@ -19,7 +19,7 @@ end
 def decode(string)
   str = ''
   ar = string.split(/   /)
-  ar.each { |value| str += '#{decode_word(value)} ' }
+  ar.each { |value| str += "#{decode_word(value)} " }
   str.strip
 end
 
