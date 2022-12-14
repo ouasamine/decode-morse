@@ -45,6 +45,9 @@
 
 2. Browse to project directory `cd decode-morse`
 
+3. Run `bundle install` to install the dependencies
+
+
 ### Available Scripts
 
 In the project directory, you can run:
