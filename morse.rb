@@ -9,5 +9,13 @@ def decode_char(char)
   print(hash[char])
 end
 
+def decode_word(string)
+  ar = string.split(/ /)
+  ar.each{ |value| decode_char(value) }
+  print(" ")
+end
 
-
+def decode(string)
+ar = string.split(/ /)
+ar.each{ |value| decode_word(value) }
+end
